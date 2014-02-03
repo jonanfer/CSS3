@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selector: :target</title>
+	<style>
+       #inicio:target
+       {
+          background-color: yellow;
+       }
+       #noticias:target
+       {
+          background-color: yellow;
+       }
+       #contacto:target
+       {
+          background-color: yellow;
+       }
+	</style>
+</head>
+<body>
+	<h1>Selector: :target</h1>
+	<div>
+		Selecciona el elemento <code> #noticias </code>
+		actualmente activo.
+		<br />
+		Se hace click en el enlace que tiene como ancla
+		<code> #noticias </code>
+	</div>
+
+	<a href="#inicio">Inicio</a>
+	<a href="#noticias">Noticias</a>
+	<a href="#contacto">Contacto</a>
+
+	<section id="inicio">
+		<header>
+			<h1>Inicio</h1>
+		</header>
+		<article>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, possimus impedit doloremque aliquam sunt. Quaerat, debitis, ratione voluptatum quos aspernatur quas error recusandae amet facere eveniet sunt dolorem tempore corporis.
+		</article>
+	</section>
+
+	<section id="noticias">
+		<header>
+			<h1>Noticias</h1>
+		</header>
+		<article>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, omnis nihil minus nostrum ullam alias quae accusantium voluptatem ut suscipit. Repellat, veniam quia deleniti excepturi perferendis explicabo voluptates nesciunt. Aperiam.
+		</article>
+	</section>
+
+	<section id="contacto">
+		<header>
+			<h1>Contacto</h1>
+		</header>
+		<article>
+			<a id="contacto"></a>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, odio, cupiditate aperiam hic quae provident nam ipsam ducimus. Reprehenderit, fugiat iusto veritatis adipisci accusamus excepturi sint nobis! Tempora, nobis, sit.
+		</article>
+	</section>
+</body>
+</html>

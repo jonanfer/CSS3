@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selector: [atributo^=valor]</title>
+	<style>
+        a[href^="http"]
+        {
+        	background-color: red;
+        }
+	</style>
+</head>
+<body>
+	<h1>Selector: [atributo^=valor]</h1>
+	<div>
+	    Selecciones todos los elementos <code> a </code>
+	    cuyo valor del atributo comienze con <code> http </code>
+	</div>
+
+	<a href="www.yahoo.com">Ir a Yahoo</a>
+	<a href="http://www.google.com">Ir a Google</a>
+	<a href="www.bing.com">Ir a Bing</a>
+	<a href="http://www.gmail.com">Ir a GMail</a>
+	<a href="www.twitter.com">Ir a Twitter</a>
+</body>
+</html>
